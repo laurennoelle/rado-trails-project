@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { Paper } from "@mui/material"; 
+import React, { useEffect, useState } from "react";
+import { Switch, Route } from "react-router-dom";
+// import { Paper } from "@mui/material"; 
 import Home from "./Components/Home";
 import NavBar from "./Components/NavBar";
 import Trails from "./Components/Trails";
@@ -8,8 +8,16 @@ import Reviews from "./Components/Reviews";
 import LandingPage from "./Components/LandingPage";
 
 function App() {
-  const [page, setPage] = useState("/")
+  // const [page, setPage] = useState("/")
+  const [render, setRender] = useState([])
 
+  useEffect(() => {
+    fetch("http://localhost:3000/trails")
+    .then(r => r.json())
+    .then(setRender)
+  }, [])
+
+  console.log(render)
   // useEffect(() => {
   //   fetch("/hello")
   //     .then((r) => r.json())
@@ -33,8 +41,8 @@ function App() {
           <Route path="/home">
             <Home />
           </Route>
-          <Route path="/trails">
-            <Trails />
+          <Route path="/trails" >
+            <Trails render={render}/>
           </Route>
           <Route path="/reviews">
             <Reviews />
