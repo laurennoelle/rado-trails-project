@@ -1,4 +1,4 @@
-// import * as React from 'react';
+// import * as React from "react";
 // import AppBar from '@mui/material/AppBar';
 // import Box from '@mui/material/Box';
 // import Toolbar from '@mui/material/Toolbar';
@@ -13,7 +13,8 @@
 // import MenuItem from '@mui/material/MenuItem';
 // import AdbIcon from '@mui/icons-material/Adb';
 
-// const pages = ['Home', 'Trails', 'Reviews'];
+
+// const pages = ['Products', 'Pricing', 'Blog'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 // const NavBar = () => {
@@ -35,8 +36,9 @@
 //     setAnchorElUser(null);
 //   };
 
+// // function NavBar() {
 //   return (
-//     <AppBar position="static" style={{ background: "#ffffff" }}>
+//     <AppBar position="static">
 //       <Container maxWidth="xl">
 //         <Toolbar disableGutters>
 //           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -159,6 +161,7 @@
 //     </AppBar>
 //   );
 // };
+
 // export default NavBar;
 
 import React from 'react'

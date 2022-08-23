@@ -27,7 +27,8 @@ function App() {
   return (
     // <Paper style={styles.paperContainer}>
     // <BrowserRouter>
-      <div className="App">
+    <div className="App">
+        <NavBar />
         <Switch>
           <Route path="/home">
             <Home />

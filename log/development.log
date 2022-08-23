@@ -1,0 +1,1527 @@
+  [1m[35m (265.2ms)[0m  [1m[35mCREATE DATABASE "phase_4_project_rado_trails_development" ENCODING = 'unicode'[0m
+  [1m[35m (121.5ms)[0m  [1m[35mCREATE DATABASE "phase_4_project_rado_trails_test" ENCODING = 'unicode'[0m
+Started GET "/hello" for ::1 at 2022-08-19 18:01:28 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 32ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 14254)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:01:29 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:01:31 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-19 18:01:44 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:01:45 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:01:46 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-19 18:02:42 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:02:42 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-19 18:02:43 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:02:43 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-19 18:02:44 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:02:44 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-19 18:02:45 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:02:45 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:02:47 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-19 18:05:26 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:05:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:05:28 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-19 18:05:30 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 285)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:05:30 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-19 18:05:31 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for ::1 at 2022-08-22 08:59:31 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/laurennoelle/.rvm/gems/ruby-2.7.4/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/laurennoelle/.rvm/gems/ruby-2.7.4/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.2ms | Allocations: 685)
+Completed 200 OK in 40ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 6477)
+
+
+Started GET "/1" for ::1 at 2022-08-22 08:59:41 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/1"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 08:59:42 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 08:59:43 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for ::1 at 2022-08-22 08:59:47 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/laurennoelle/.rvm/gems/ruby-2.7.4/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/laurennoelle/.rvm/gems/ruby-2.7.4/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.3ms | Allocations: 371)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 1058)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:00:14 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 727)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:15 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:17 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:00:18 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:18 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:00:18 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 283)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:19 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:00:19 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:19 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:00:20 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:00:21 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:00:48 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 31ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 13369)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:49 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:50 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:00:52 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:53 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:00:53 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:53 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:00:55 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:02:28 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:02:28 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:02:28 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:02:29 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:02:30 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:02:57 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 32ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 13369)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:02:57 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:02:58 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:03:01 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:03:01 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:03:02 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:03:02 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:03:03 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:06:58 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 200 OK in 28ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 13369)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:06:58 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:07:00 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:07:02 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:07:02 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 09:07:03 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 09:11:53 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 200 OK in 35ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 13369)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:11:56 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:11:59 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:12:02 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:12:03 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:12:04 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:12:22 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:12:23 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.18ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:12:47 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.64ms)
+Completed 200 OK in 37ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 13369)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:12:50 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:12:51 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:12:52 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:12:53 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:12:54 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:13:51 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.28ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:13:54 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:13:56 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.52ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:13:57 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.25ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:19:52 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.81ms)
+Completed 200 OK in 13ms (Views: 7.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:19:53 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:20:01 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:50:19 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 200 OK in 61ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 13369)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:50:30 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:50:32 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:50:33 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:50:40 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:50:44 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:50:45 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:50:46 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:53:54 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 36ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 13368)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:54:08 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 09:54:09 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:04:02 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 42ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 13375)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:04:08 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 289)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:04:10 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 289)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:04:12 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 289)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:04:15 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 289)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:05:24 -0600
+Processing by ApplicationController#hello_world as HTML
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms | Allocations: 14746)
+
+
+  
+NameError (undefined local variable or method `byebug' for #<ApplicationController:0x00000000008750>):
+  
+app/controllers/application_controller.rb:6:in `hello_world'
+Started GET "/hello" for ::1 at 2022-08-22 10:06:06 -0600
+Processing by ApplicationController#hello_world as HTML
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms | Allocations: 14867)
+
+
+  
+NameError (undefined local variable or method `pry' for #<ApplicationController:0x00000000008750>
+Did you mean?  try):
+  
+app/controllers/application_controller.rb:6:in `hello_world'
+Started GET "/hello" for ::1 at 2022-08-22 10:06:54 -0600
+Processing by ApplicationController#hello_world as HTML
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 13497)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007fa16f9a5890>
+Did you mean?  try):
+  
+app/controllers/application_controller.rb:6:in `hello_world'
+Started GET "/hello" for ::1 at 2022-08-22 10:07:41 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 25ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 13368)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:07:50 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:13:23 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 34ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 13372)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:13:42 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:13:44 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.22ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:13:47 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:14:07 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:14:08 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:14:09 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:14:19 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:14:20 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 289)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:14:21 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:14:22 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:14:32 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:14:34 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 282)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:18:01 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.19ms)
+Completed 200 OK in 41ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 13420)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:18:07 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:18:08 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:18:10 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:19:44 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 26ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 13236)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:19:47 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:19:51 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:19:52 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:20:53 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 39ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 13237)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:20:57 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:20:57 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:20:58 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:21:46 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 13ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 13236)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:21:48 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:21:50 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:21:51 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:23:43 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 175)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:27:56 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:28:10 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 175)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:30:24 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.61ms)
+Completed 200 OK in 6ms (Views: 3.3ms | Allocations: 175)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:31:04 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 28ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 13236)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:31:07 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 10:33:56 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 13:29:30 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 31ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 13238)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:29:31 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:29:33 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 13:29:34 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:29:34 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 13:29:35 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:29:35 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 13:29:36 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:29:36 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 13:29:37 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:29:37 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:29:38 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 13:29:39 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:29:39 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:29:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 13:29:42 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:29:42 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:29:43 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for ::1 at 2022-08-22 13:34:55 -0600
+Processing by ApplicationController#hello_world as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:34:55 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for ::1 at 2022-08-22 13:34:56 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:42:54 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 189)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:42:54 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:20 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:20 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 193)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:23 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:23 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:24 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 200 OK in 1ms (Views: 1.0ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:24 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.7ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:25 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:25 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:26 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 189)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:26 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:27 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:27 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:28 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:28 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:29 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:29 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:31 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:31 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 2ms (Views: 1.4ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:32 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.9ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:32 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:35 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 13:43:35 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 14:05:26 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 200 OK in 23ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 13249)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 14:05:27 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 14:06:08 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 14:06:08 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 14:12:45 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 44ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 13243)
+
+
+Started GET "/testing" for ::1 at 2022-08-22 14:13:03 -0600
+Processing by FallbackController#index as HTML
+  Parameters: {"path"=>"testing"}
+  Rendering public/index.html
+  Rendered public/index.html (Duration: 0.1ms | Allocations: 7)
+Completed 200 OK in 125ms (Views: 39.8ms | ActiveRecord: 0.0ms | Allocations: 4216)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 14:13:04 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 16:55:53 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.29ms)
+Completed 200 OK in 10ms (Views: 7.0ms | Allocations: 282)
+
+
+Started GET "/hello" for ::1 at 2022-08-22 16:55:56 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:57:16 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 3ms (Views: 1.2ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:57:17 -0600
+Processing by ApplicationController#hello_world as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 4ms (Views: 2.7ms | Allocations: 188)
+
+
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:57:37 -0600
+  
+AbstractController::ActionNotFound (The action 'hello_world' could not be found for ApplicationController):
+  
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:57:37 -0600
+  
+AbstractController::ActionNotFound (The action 'hello_world' could not be found for ApplicationController):
+  
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:58:07 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:58:07 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:58:12 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:58:13 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:58:13 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:58:13 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:58:14 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:58:14 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:58:15 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for 127.0.0.1 at 2022-08-22 16:58:15 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+  [1m[35m (178.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (111.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTrails (20220823163003)
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (69.3ms)[0m  [1m[35mCREATE TABLE "trails" ("id" bigserial primary key, "name" character varying, "img_url" character varying, "city" character varying, "length" integer, "est_time" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220823163003"]]
+  [1m[36mTRANSACTION (41.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (74.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-08-23 16:56:47.159717"], ["updated_at", "2022-08-23 16:56:47.159717"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (41.9ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (42.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Horsetooth Trail"], ["img_url", "https://images.unsplash.com/photo-1658419655425-d359ac8a0bf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-23 17:06:02.561634"], ["updated_at", "2022-08-23 17:06:02.561634"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (1.0ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Hewlett Gultch"], ["img_url", "https://images.unsplash.com/photo-1590013335840-83bbe7031d4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1941&q=80"], ["city", "Fort Collins"], ["length", 8], ["est_time", 3], ["created_at", "2022-08-23 17:06:02.611737"], ["updated_at", "2022-08-23 17:06:02.611737"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.5ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Grey Rock"], ["img_url", "https://images.unsplash.com/photo-1619994948937-ef1e758d46ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80"], ["city", "Fort Collins"], ["length", 9], ["est_time", 5], ["created_at", "2022-08-23 17:06:02.620257"], ["updated_at", "2022-08-23 17:06:02.620257"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.4ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Bear Peak"], ["img_url", "https://images.unsplash.com/photo-1528226922624-a3d2fe277cf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 3], ["est_time", 3], ["created_at", "2022-08-23 17:06:02.627288"], ["updated_at", "2022-08-23 17:06:02.627288"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.3ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Mesa Trail"], ["img_url", "https://images.unsplash.com/photo-1644983038252-a80b1536bdfb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 2], ["est_time", 3], ["created_at", "2022-08-23 17:06:02.632705"], ["updated_at", "2022-08-23 17:06:02.632705"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.3ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Resevoir Ridge"], ["img_url", "https://images.unsplash.com/photo-1653250947541-756cf6d786f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-23 17:06:02.637553"], ["updated_at", "2022-08-23 17:06:02.637553"]]
+  [1m[36mTRANSACTION (40.7ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/hello" for ::1 at 2022-08-23 11:10:35 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for ::1 at 2022-08-23 11:10:39 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for ::1 at 2022-08-23 11:10:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/trails" for ::1 at 2022-08-23 11:11:06 -0600
+Processing by TrailsController#index as HTML
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:4:in `index'
+No serializer found for resource: #<Trail id: 1, name: "Horsetooth Trail", img_url: "https://images.unsplash.com/photo-1658419655425-d3...", city: "Fort Collins", length: 4, est_time: 2, created_at: "2022-08-23 17:06:02.561634000 +0000", updated_at: "2022-08-23 17:06:02.561634000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Trail::ActiveRecord_Relation (4.44ms)
+Completed 200 OK in 87ms (Views: 61.5ms | ActiveRecord: 9.2ms | Allocations: 8802)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 11:13:32 -0600
+Processing by TrailsController#index as HTML
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:4:in `index'
+No serializer found for resource: #<Trail id: 1, name: "Horsetooth Trail", img_url: "https://images.unsplash.com/photo-1658419655425-d3...", city: "Fort Collins", length: 4, est_time: 2, created_at: "2022-08-23 17:06:02.561634000 +0000", updated_at: "2022-08-23 17:06:02.561634000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Trail::ActiveRecord_Relation (2.59ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.3ms | Allocations: 1553)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 11:15:58 -0600
+Processing by TrailsController#index as HTML
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:4:in `index'
+No serializer found for resource: #<Trail id: 1, name: "Horsetooth Trail", img_url: "https://images.unsplash.com/photo-1658419655425-d3...", city: "Fort Collins", length: 4, est_time: 2, created_at: "2022-08-23 17:06:02.561634000 +0000", updated_at: "2022-08-23 17:06:02.561634000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Trail::ActiveRecord_Relation (2.15ms)
+Completed 200 OK in 30ms (Views: 12.3ms | ActiveRecord: 7.4ms | Allocations: 3910)
+
+
+Started GET "/trails/1" for ::1 at 2022-08-23 11:17:08 -0600
+Processing by TrailsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:8:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Trail (0.42ms)
+Completed 200 OK in 65ms (Views: 4.9ms | ActiveRecord: 6.6ms | Allocations: 3961)
+
+
+Started GET "/trails/1" for ::1 at 2022-08-23 11:17:32 -0600
+Processing by TrailsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:8:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Trail (0.25ms)
+Completed 200 OK in 19ms (Views: 2.9ms | ActiveRecord: 3.3ms | Allocations: 3363)
+
+
+Started GET "/trails/2" for ::1 at 2022-08-23 11:17:40 -0600
+Processing by TrailsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTrail Load (2.1ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:8:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Trail (0.42ms)
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 2.1ms | Allocations: 726)
+
+
+Started GET "/trails/3" for ::1 at 2022-08-23 11:17:53 -0600
+Processing by TrailsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTrail Load (3.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:8:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Trail (0.17ms)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 3.2ms | Allocations: 713)
+
+
+Started GET "/trails/4" for ::1 at 2022-08-23 11:18:01 -0600
+Processing by TrailsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTrail Load (5.1ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:8:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Trail (0.27ms)
+Completed 200 OK in 34ms (Views: 26.0ms | ActiveRecord: 5.1ms | Allocations: 713)
+
+
+Started GET "/trails/5" for ::1 at 2022-08-23 11:18:08 -0600
+Processing by TrailsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mTrail Load (1.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:8:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Trail (0.16ms)
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 1.2ms | Allocations: 712)
+
+
+Started GET "/trails/6" for ::1 at 2022-08-23 11:18:15 -0600
+Processing by TrailsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:8:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Trail (0.19ms)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 712)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 11:18:23 -0600
+Processing by TrailsController#index as HTML
+  [1m[36mTrail Load (1.1ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:4:in `index'
+No serializer found for resource: #<Trail id: 1, name: "Horsetooth Trail", img_url: "https://images.unsplash.com/photo-1658419655425-d3...", city: "Fort Collins", length: 4, est_time: 2, created_at: "2022-08-23 17:06:02.561634000 +0000", updated_at: "2022-08-23 17:06:02.561634000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Trail::ActiveRecord_Relation (0.47ms)
+Completed 200 OK in 123ms (Views: 121.8ms | ActiveRecord: 1.1ms | Allocations: 1353)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 11:24:32 -0600
+Processing by TrailsController#index as HTML
+  [1m[36mTrail Load (0.7ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:4:in `index'
+No serializer found for resource: #<Trail id: 1, name: "Horsetooth Trail", img_url: "https://images.unsplash.com/photo-1658419655425-d3...", city: "Fort Collins", length: 4, est_time: 2, created_at: "2022-08-23 17:06:02.561634000 +0000", updated_at: "2022-08-23 17:06:02.561634000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Trail::ActiveRecord_Relation (1.47ms)
+Completed 200 OK in 166ms (Views: 146.0ms | ActiveRecord: 11.1ms | Allocations: 6617)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 11:25:11 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:4:in `index'
+No serializer found for resource: #<Trail id: 1, name: "Horsetooth Trail", img_url: "https://images.unsplash.com/photo-1658419655425-d3...", city: "Fort Collins", length: 4, est_time: 2, created_at: "2022-08-23 17:06:02.561634000 +0000", updated_at: "2022-08-23 17:06:02.561634000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Trail::ActiveRecord_Relation (0.68ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.4ms | Allocations: 1358)
+
+
+Started GET "/trails/1" for ::1 at 2022-08-23 11:25:27 -0600
+Processing by TrailsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mTrail Load (0.6ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:8:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Trail (0.16ms)
+Completed 200 OK in 11ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 851)
+
+
+Started GET "/trails/7" for ::1 at 2022-08-23 11:28:33 -0600
+Processing by TrailsController#show as */*
+  Parameters: {"id"=>"7"}
+  [1m[36mTrail Load (0.9ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:9:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 404 Not Found in 35ms (Views: 2.0ms | ActiveRecord: 10.2ms | Allocations: 2037)
+
+
+Started POST "/trails" for ::1 at 2022-08-23 11:32:16 -0600
+Processing by TrailsController#create as */*
+  Parameters: {"trail"=>{}}
+[31mUnpermitted parameter: :trail. Context: { controller: TrailsController, action: create, request: #<ActionDispatch::Request:0x00007fa110b2a990>, params: {"controller"=>"trails", "action"=>"create", "trail"=>{}} }[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 147ms (Views: 0.8ms | ActiveRecord: 3.5ms | Allocations: 8761)
+
+
+Started POST "/trails" for ::1 at 2022-08-23 11:37:16 -0600
+Processing by TrailsController#create as */*
+  Parameters: {"name"=>"Michigan Gultch", "img_url"=>"https://images.unsplash.com/photo-1498252538543-fc27aee78db2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80", "city"=>"Poudre Canyon", "length"=>4, "est_time"=>3, "trail"=>{"name"=>"Michigan Gultch", "img_url"=>"https://images.unsplash.com/photo-1498252538543-fc27aee78db2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80", "city"=>"Poudre Canyon", "length"=>4, "est_time"=>3}}
+[31mUnpermitted parameter: :trail. Context: { controller: TrailsController, action: create, request: #<ActionDispatch::Request:0x00007fa11097b978>, params: {"name"=>"Michigan Gultch", "img_url"=>"https://images.unsplash.com/photo-1498252538543-fc27aee78db2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80", "city"=>"Poudre Canyon", "length"=>4, "est_time"=>3, "controller"=>"trails", "action"=>"create", "trail"=>{"name"=>"Michigan Gultch", "img_url"=>"https://images.unsplash.com/photo-1498252538543-fc27aee78db2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80", "city"=>"Poudre Canyon", "length"=>4, "est_time"=>3}} }[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/trails_controller.rb:15:in `create'
+  [1m[36mTrail Create (2.0ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Michigan Gultch"], ["img_url", "https://images.unsplash.com/photo-1498252538543-fc27aee78db2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80"], ["city", "Poudre Canyon"], ["length", 4], ["est_time", 3], ["created_at", "2022-08-23 17:37:16.068603"], ["updated_at", "2022-08-23 17:37:16.068603"]]
+  ↳ app/controllers/trails_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (44.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/trails_controller.rb:15:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Trail (0.69ms)
+Completed 201 Created in 124ms (Views: 4.1ms | ActiveRecord: 46.8ms | Allocations: 2350)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 11:37:35 -0600
+Processing by TrailsController#index as */*
+  Parameters: {"name"=>"Michigan Gultch", "img_url"=>"https://images.unsplash.com/photo-1498252538543-fc27aee78db2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80", "city"=>"Poudre Canyon", "length"=>4, "est_time"=>3, "trail"=>{"name"=>"Michigan Gultch", "img_url"=>"https://images.unsplash.com/photo-1498252538543-fc27aee78db2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80", "city"=>"Poudre Canyon", "length"=>4, "est_time"=>3}}
+  [1m[36mTrail Load (0.7ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+No serializer found for resource: #<Trail id: 1, name: "Horsetooth Trail", img_url: "https://images.unsplash.com/photo-1658419655425-d3...", city: "Fort Collins", length: 4, est_time: 2, created_at: "2022-08-23 17:06:02.561634000 +0000", updated_at: "2022-08-23 17:06:02.561634000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Trail::ActiveRecord_Relation (0.78ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.7ms | Allocations: 1468)
+
+
+Started GET "/trails/7" for ::1 at 2022-08-23 11:37:52 -0600
+Processing by TrailsController#show as */*
+  Parameters: {"name"=>"Michigan Gultch", "img_url"=>"https://images.unsplash.com/photo-1498252538543-fc27aee78db2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80", "city"=>"Poudre Canyon", "length"=>4, "est_time"=>3, "id"=>"7", "trail"=>{"name"=>"Michigan Gultch", "img_url"=>"https://images.unsplash.com/photo-1498252538543-fc27aee78db2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80", "city"=>"Poudre Canyon", "length"=>4, "est_time"=>3}}
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:10:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Trail (0.17ms)
+Completed 200 OK in 6ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 816)
+
+
+Started DELETE "/trails/7" for ::1 at 2022-08-23 11:39:15 -0600
+Processing by TrailsController#destroy as */*
+  Parameters: {"id"=>"7", "trail"=>{}}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:27:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/trails_controller.rb:28:in `destroy'
+  [1m[36mTrail Destroy (44.1ms)[0m  [1m[31mDELETE FROM "trails" WHERE "trails"."id" = $1[0m  [["id", 7]]
+  ↳ app/controllers/trails_controller.rb:28:in `destroy'
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/trails_controller.rb:28:in `destroy'
+Completed 204 No Content in 64ms (ActiveRecord: 48.6ms | Allocations: 1831)
+
+
+Started DELETE "/trails" for ::1 at 2022-08-23 11:39:29 -0600
+  
+ActionController::RoutingError (No route matches [DELETE] "/trails"):
+  
+Started GET "/trails" for ::1 at 2022-08-23 11:39:39 -0600
+Processing by TrailsController#index as */*
+  Parameters: {"trail"=>{}}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+No serializer found for resource: #<Trail id: 1, name: "Horsetooth Trail", img_url: "https://images.unsplash.com/photo-1658419655425-d3...", city: "Fort Collins", length: 4, est_time: 2, created_at: "2022-08-23 17:06:02.561634000 +0000", updated_at: "2022-08-23 17:06:02.561634000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Trail::ActiveRecord_Relation (0.78ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 1358)
+
+
