@@ -33,13 +33,7 @@ My goal is to build a full-stack application with a powerful backend framework a
 * Have several client-side routes using React router that implements a nav bar that allows user interaction
 * Implement authentication, authorization and password protection that allows a user to log into the site and stay logged in via user ID in the session hash.
 
-## Expected Accomplishments 
-
-* organize our code into purposeful components in order to keep it clean and dry
-* incorporate a UI framework for our styling with [react-bootstrap](https://react-bootstrap.github.io/) or [Material UI](https://mui.com/)
-
-
-## Frontend Setup
+<!-- ## Frontend Setup
 Fork and clone [our frontend repository] onto your local environment:  
 In the project directory, install the dependencies by running:  
 `npm install`  
@@ -58,17 +52,11 @@ To run your server in development mode, run:
 `npm run dev`  
 While running in development mode, the server will re-load any time you make changes to the db.json file, so you can test our your seed data.  
 
-While your server is running, you can make requests to http://localhost:3000. Check it out in the browser to make sure your server works!  
+While your server is running, you can make requests to http://localhost:3000. Check it out in the browser to make sure your server works!   -->
 
 Creators
 ---
 Lauren Erxleben [Github](https://github.com/laurennoelle)  [Linkedin](www.linkedin.com/in/lauren-erxleben) 
-
-
-
-
-
-
 
 
 This README would normally document whatever steps are necessary to get the
