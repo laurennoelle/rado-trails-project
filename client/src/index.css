@@ -65,7 +65,7 @@ main {
   padding: 0 1rem;
 }
 
-.new-plant-form {
+/* .new-plant-form {
   padding: 2rem 1rem;
   margin: 2rem 0;
   background-color: rgba(181, 250, 181, 0.5);
@@ -83,7 +83,7 @@ main {
 
 .new-plant-form button {
   width: 150px;
-}
+} */
 
 .searchbar {
   padding: 1rem;

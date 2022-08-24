@@ -2611,3 +2611,91 @@ Processing by TrailsController#index as */*
 Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.4ms | Allocations: 1658)
 
 
+Started GET "/trails" for ::1 at 2022-08-23 18:14:57 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.9ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.7ms)
+Completed 200 OK in 403ms (Views: 394.8ms | ActiveRecord: 303.5ms | Allocations: 4593)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 18:15:32 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.9ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.78ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 1.9ms | Allocations: 1655)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 18:15:52 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.8ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.87ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 1.8ms | Allocations: 1655)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 18:16:40 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (14.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.32ms)
+Completed 200 OK in 70ms (Views: 54.6ms | ActiveRecord: 14.3ms | Allocations: 1655)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 18:17:40 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.6ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.25ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.6ms | Allocations: 1655)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 18:17:40 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.04ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.5ms | Allocations: 1655)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 18:17:51 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.27ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.2ms | Allocations: 1655)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 18:17:51 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.47ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.3ms | Allocations: 1656)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 18:18:18 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.65ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.3ms | Allocations: 1655)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 18:20:05 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.8ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.83ms)
+Completed 200 OK in 21ms (Views: 14.9ms | ActiveRecord: 1.8ms | Allocations: 1655)
+
+
+Started GET "/trails" for ::1 at 2022-08-23 18:20:05 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.6ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 1655)
+
+

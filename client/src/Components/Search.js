@@ -3,7 +3,7 @@ import React from 'react'
 function Search( {search, searchForTrails} ) {
   return (
     <div className='searchbar'>
-        <label htmlfor="search">Search for trails:</label>
+        {/* <label htmlfor="search">Search for trails:</label> */}
         <input
             type="text"
             id="search"
