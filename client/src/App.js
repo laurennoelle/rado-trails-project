@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Switch, Route } from "react-router-dom";
 // import { Paper } from "@mui/material"; 
 import Home from "./Components/Home";
@@ -9,15 +9,15 @@ import LandingPage from "./Components/LandingPage";
 
 function App() {
   // const [page, setPage] = useState("/")
-  const [render, setRender] = useState([])
+  // const [render, setRender] = useState([])
 
-  useEffect(() => {
-    fetch("http://localhost:3000/trails")
-    .then(r => r.json())
-    .then(setRender)
-  }, [])
+  // useEffect(() => {
+  //   fetch("http://localhost:3000/trails")
+  //   .then(r => r.json())
+  //   .then(setRender)
+  // }, [])
 
-  console.log(render)
+  // console.log(render)
   // useEffect(() => {
   //   fetch("/hello")
   //     .then((r) => r.json())
@@ -42,7 +42,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/trails" >
-            <Trails render={render}/>
+            <Trails/>
           </Route>
           <Route path="/reviews">
             <Reviews />
