@@ -10,9 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_08_23_163003) do
+ActiveRecord::Schema[7.0].define(version: 2022_08_24_211116) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "reviews", force: :cascade do |t|
+    t.string "username"
+    t.text "comment"
+    t.integer "rating"
+    t.integer "user_id"
+    t.integer "trail_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "trails", force: :cascade do |t|
     t.string "name"
@@ -20,6 +30,13 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_23_163003) do
     t.string "city"
     t.integer "length"
     t.integer "est_time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username"
+    t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

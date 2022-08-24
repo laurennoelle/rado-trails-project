@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Switch, Route } from "react-router-dom";
 // import { Paper } from "@mui/material"; 
 import Home from "./Components/Home";
@@ -8,7 +8,7 @@ import Reviews from "./Components/Reviews";
 import LandingPage from "./Components/LandingPage";
 
 function App() {
-  // const [page, setPage] = useState("/")
+  const [page, setPage] = useState("/")
   // const [render, setRender] = useState([])
 
   // useEffect(() => {
@@ -36,7 +36,7 @@ function App() {
     // <Paper style={styles.paperContainer}>
     // <BrowserRouter>
     <div className="App">
-        <NavBar />
+        <NavBar onChangePage={setPage}/>
         <Switch>
           <Route path="/home">
             <Home />

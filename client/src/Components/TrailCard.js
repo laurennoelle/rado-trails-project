@@ -112,6 +112,7 @@ function TrailCard( {trail} ) {
         <p><em>Length: {trail.length} mi.</em></p>
         <p><em>Estimated Time: {trail.est_time} hrs.</em></p>
         <button>⭐️</button>
+        {/* <p> Reviews: {trail.reviews}</p> */}
     </li>
   );
 }
