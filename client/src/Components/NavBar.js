@@ -1,4 +1,50 @@
-// import * as React from "react";
+import React from 'react';
+import { AppBar, Toolbar, IconButton, Typography, Button } from '@mui/material';
+import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+import {Box} from "@mui/system"
+// import {link} from 'react-router-dom'
+function NavBar() {
+  return (
+    <AppBar sx={{ backgroundColor: "white"}}>
+        <Toolbar>
+            <Box sx={{
+                display: "flex", 
+                justifyContent: 'space-between', 
+                alignItems: "center",
+                width: '100%',
+                }}
+                component="div">
+
+            {/* logo */}
+                <Box>
+                    <img className="trails_logo"
+                    src="https://i.imgur.com/SDMKHUI.png"
+                    alt="logo"/>
+                    {/* <IconButton>
+                        <MenuOutlinedIcon/>
+                     </IconButton> */}
+                </Box>
+                {/* links */}
+                <Box sx={{ display: "flex" }}>
+                     <Typography 
+                     sx={{ marginRight: "20px", cursor: "pointer", color:"black"}}>Home</Typography>
+                     <Typography
+                     sx={{ marginRight: "20px", cursor: "pointer", color:"black"}}>Trails</Typography>
+                     <Typography
+                     sx={{ marginRight: "20px", cursor: "pointer", color:"black"}}>Reviews</Typography>
+                </Box>
+                {/* button links */}
+                <Box>
+                <Button variant="text" sx={{ color: "black" }}>Log In</Button>
+                </Box>
+            </Box> 
+        </Toolbar>
+    </AppBar>
+  )
+}
+
+export default NavBar
+// import React from 'react';
 // import AppBar from '@mui/material/AppBar';
 // import Box from '@mui/material/Box';
 // import Toolbar from '@mui/material/Toolbar';
@@ -12,9 +58,9 @@
 // import Tooltip from '@mui/material/Tooltip';
 // import MenuItem from '@mui/material/MenuItem';
 // import AdbIcon from '@mui/icons-material/Adb';
+// import { Link } from "react-router-dom";
 
-
-// const pages = ['Products', 'Pricing', 'Blog'];
+// const pages = ['Home', 'Trails', 'Reviews'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 // const NavBar = () => {
@@ -36,7 +82,6 @@
 //     setAnchorElUser(null);
 //   };
 
-// // function NavBar() {
 //   return (
 //     <AppBar position="static">
 //       <Container maxWidth="xl">
@@ -91,7 +136,9 @@
 //             >
 //               {pages.map((page) => (
 //                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-//                   <Typography textAlign="center">{page}</Typography>
+//                   <Typography textAlign="center">
+//                     <Link to={`/${page}`}>{page}</Link>
+//                   </Typography>
 //                 </MenuItem>
 //               ))}
 //             </Menu>
@@ -122,6 +169,9 @@
 //                 onClick={handleCloseNavMenu}
 //                 sx={{ my: 2, color: 'white', display: 'block' }}
 //               >
+//                 <Link style={{ textDecoration: "none" }} to={`/${page}`}>
+//                   {page}
+//                 </Link>
 //                 {page}
 //               </Button>
 //             ))}
@@ -161,15 +211,4 @@
 //     </AppBar>
 //   );
 // };
-
 // export default NavBar;
-
-import React from 'react'
-
-function NavBar() {
-  return (
-    <div>NavBar</div>
-  )
-}
-
-export default NavBar
