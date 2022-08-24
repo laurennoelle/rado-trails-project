@@ -65,6 +65,10 @@ main {
   padding: 0 1rem;
 }
 
+.trails_logo {
+  height: 60px;
+  width: 150px;
+}
 /* .new-plant-form {
   padding: 2rem 1rem;
   margin: 2rem 0;
@@ -86,7 +90,7 @@ main {
 } */
 
 .searchbar {
-  padding: 1rem;
+  padding: 5rem;
   display: flex;
   flex-direction: column;
 }
