@@ -4980,3 +4980,725 @@ Processing by TrailsController#index as */*
 Completed 200 OK in 276ms (Views: 224.6ms | ActiveRecord: 51.3ms | Allocations: 7658)
 
 
+Started GET "/trails" for ::1 at 2022-08-25 12:33:29 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.7ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (6.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (4.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (11.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (66.69ms)
+Completed 200 OK in 117ms (Views: 112.8ms | ActiveRecord: 41.0ms | Allocations: 10701)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 12:33:30 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (30.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (26.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (11.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (6.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (102.15ms)
+Completed 200 OK in 140ms (Views: 57.9ms | ActiveRecord: 82.1ms | Allocations: 7658)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:10:04 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.1ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (59.13ms)
+Completed 200 OK in 187ms (Views: 180.5ms | ActiveRecord: 23.7ms | Allocations: 10648)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:10:05 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (4.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (38.02ms)
+Completed 200 OK in 68ms (Views: 62.0ms | ActiveRecord: 5.6ms | Allocations: 7658)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:14:55 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (2.0ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (29.87ms)
+Completed 200 OK in 37ms (Views: 22.5ms | ActiveRecord: 14.5ms | Allocations: 7658)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:14:55 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.1ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (105.6ms)
+Completed 200 OK in 150ms (Views: 145.8ms | ActiveRecord: 3.7ms | Allocations: 7659)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:15:00 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (4.6ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (28.68ms)
+Completed 200 OK in 44ms (Views: 27.8ms | ActiveRecord: 15.9ms | Allocations: 7658)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:15:00 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (4.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (115.73ms)
+Completed 200 OK in 128ms (Views: 111.0ms | ActiveRecord: 17.1ms | Allocations: 7658)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:15:04 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (5.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (4.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (57.88ms)
+Completed 200 OK in 65ms (Views: 48.8ms | ActiveRecord: 16.4ms | Allocations: 7659)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:15:04 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (4.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (7.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (36.57ms)
+Completed 200 OK in 48ms (Views: 25.9ms | ActiveRecord: 21.9ms | Allocations: 7658)
+
+
+Started PATCH "/trails/31" for ::1 at 2022-08-25 15:15:24 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>12, "id"=>"31", "trail"=>{"likes"=>12}}
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTrail Update (4.8ms)[0m  [1m[33mUPDATE "trails" SET "updated_at" = $1, "likes" = $2 WHERE "trails"."id" = $3[0m  [["updated_at", "2022-08-25 21:15:24.565428"], ["likes", 12], ["id", 31]]
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTRANSACTION (43.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+[active_model_serializers]   [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:23:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (5.13ms)
+Completed 202 Accepted in 70ms (Views: 5.4ms | ActiveRecord: 49.6ms | Allocations: 3392)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (1.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (25.8ms)[0m  [1m[35mTRUNCATE TABLE "reviews", "trails", "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "lnoelle"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "csale"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (1.0ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Horsetooth Trail"], ["img_url", "https://images.unsplash.com/photo-1658419655425-d359ac8a0bf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 21:17:56.041252"], ["updated_at", "2022-08-25 21:17:56.041252"], ["map", "https://www.larimer.gov/naturalresources/parks/horsetooth-mountain"], ["likes", 4]]
+  [1m[36mTRANSACTION (54.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Hewlett Gultch"], ["img_url", "https://images.unsplash.com/photo-1590013335840-83bbe7031d4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1941&q=80"], ["city", "Fort Collins"], ["length", 8], ["est_time", 3], ["created_at", "2022-08-25 21:17:56.101435"], ["updated_at", "2022-08-25 21:17:56.101435"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36779"], ["likes", 5]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Grey Rock"], ["img_url", "https://images.unsplash.com/photo-1619994948937-ef1e758d46ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80"], ["city", "Fort Collins"], ["length", 9], ["est_time", 5], ["created_at", "2022-08-25 21:17:56.110471"], ["updated_at", "2022-08-25 21:17:56.110471"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36777"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (2.9ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Bear Peak"], ["img_url", "https://images.unsplash.com/photo-1528226922624-a3d2fe277cf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 3], ["est_time", 3], ["created_at", "2022-08-25 21:17:56.119607"], ["updated_at", "2022-08-25 21:17:56.119607"], ["map", "https://bouldercolorado.gov/trail/bear-peak"], ["likes", 11]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Mesa Trail"], ["img_url", "https://images.unsplash.com/photo-1644983038252-a80b1536bdfb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 2], ["est_time", 3], ["created_at", "2022-08-25 21:17:56.130763"], ["updated_at", "2022-08-25 21:17:56.130763"], ["map", "https://bouldercolorado.gov/trail/mesa"], ["likes", 6]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.7ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Resevoir Ridge"], ["img_url", "https://images.unsplash.com/photo-1653250947541-756cf6d786f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 21:17:56.139513"], ["updated_at", "2022-08-25 21:17:56.139513"], ["map", "https://www.fcgov.com/naturalareas/finder/reservoirridge"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/reviews" for ::1 at 2022-08-25 15:20:06 -0600
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (1.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.03ms)
+Completed 200 OK in 28ms (Views: 18.9ms | ActiveRecord: 1.9ms | Allocations: 789)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:22:22 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (5.1ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (78.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 32]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (22.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 33]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 34]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 35]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 36]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (4.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 37]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (159.63ms)
+Completed 200 OK in 217ms (Views: 102.5ms | ActiveRecord: 113.8ms | Allocations: 7659)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:22:22 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (34.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (26.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 32]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (93.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 33]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 34]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (5.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 35]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (4.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 36]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (5.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 37]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (264.49ms)
+Completed 200 OK in 381ms (Views: 206.8ms | ActiveRecord: 173.5ms | Allocations: 7670)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:22:48 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.7ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 32]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (21.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 33]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (5.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 34]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 35]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (4.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 36]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (10.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 37]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (69.58ms)
+Completed 200 OK in 96ms (Views: 45.8ms | ActiveRecord: 49.8ms | Allocations: 7659)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:22:48 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 32]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 33]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 34]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 35]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 36]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 37]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (37.29ms)
+Completed 200 OK in 105ms (Views: 101.4ms | ActiveRecord: 3.1ms | Allocations: 7658)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (21.6ms)[0m  [1m[35mTRUNCATE TABLE "reviews", "trails", "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.9ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Horsetooth Trail"], ["img_url", "https://images.unsplash.com/photo-1658419655425-d359ac8a0bf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 21:25:58.713286"], ["updated_at", "2022-08-25 21:25:58.713286"], ["map", "https://www.larimer.gov/naturalresources/parks/horsetooth-mountain"], ["likes", 4]]
+  [1m[36mTRANSACTION (31.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.8ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Hewlett Gultch"], ["img_url", "https://images.unsplash.com/photo-1590013335840-83bbe7031d4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1941&q=80"], ["city", "Fort Collins"], ["length", 8], ["est_time", 3], ["created_at", "2022-08-25 21:25:58.750667"], ["updated_at", "2022-08-25 21:25:58.750667"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36779"], ["likes", 5]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.8ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Grey Rock"], ["img_url", "https://images.unsplash.com/photo-1619994948937-ef1e758d46ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80"], ["city", "Fort Collins"], ["length", 9], ["est_time", 5], ["created_at", "2022-08-25 21:25:58.759122"], ["updated_at", "2022-08-25 21:25:58.759122"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36777"], ["likes", 10]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.3ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Bear Peak"], ["img_url", "https://images.unsplash.com/photo-1528226922624-a3d2fe277cf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 3], ["est_time", 3], ["created_at", "2022-08-25 21:25:58.767100"], ["updated_at", "2022-08-25 21:25:58.767100"], ["map", "https://bouldercolorado.gov/trail/bear-peak"], ["likes", 11]]
+  [1m[36mTRANSACTION (23.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (42.0ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Mesa Trail"], ["img_url", "https://images.unsplash.com/photo-1644983038252-a80b1536bdfb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 2], ["est_time", 3], ["created_at", "2022-08-25 21:25:58.796259"], ["updated_at", "2022-08-25 21:25:58.796259"], ["map", "https://bouldercolorado.gov/trail/mesa"], ["likes", 6]]
+  [1m[36mTRANSACTION (37.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.8ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Resevoir Ridge"], ["img_url", "https://images.unsplash.com/photo-1653250947541-756cf6d786f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 21:25:58.883426"], ["updated_at", "2022-08-25 21:25:58.883426"], ["map", "https://www.fcgov.com/naturalareas/finder/reservoirridge"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "lnoelle"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "csale"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+Started GET "/reviews" for ::1 at 2022-08-25 15:27:22 -0600
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (20.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.25ms)
+Completed 200 OK in 25ms (Views: 4.0ms | ActiveRecord: 20.4ms | Allocations: 779)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:29:22 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 38]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 39]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (4.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 40]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 41]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 42]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 43]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (31.72ms)
+Completed 200 OK in 37ms (Views: 21.6ms | ActiveRecord: 14.9ms | Allocations: 7658)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:29:22 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (14.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 38]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (10.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 39]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (88.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 40]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (12.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 41]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (4.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 42]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (5.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 43]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (157.0ms)
+Completed 200 OK in 184ms (Views: 47.8ms | ActiveRecord: 135.6ms | Allocations: 7658)
+
+
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" ORDER BY "trails"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (43.1ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Resevoir Ridge"], ["img_url", "https://images.unsplash.com/photo-1653250947541-756cf6d786f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 21:40:09.440901"], ["updated_at", "2022-08-25 21:40:09.440901"], ["map", "https://www.fcgov.com/naturalareas/finder/reservoirridge"], ["likes", 10]]
+  [1m[36mTRANSACTION (50.1ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/trails" for ::1 at 2022-08-25 15:40:26 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (2.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 38]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 39]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 40]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 41]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 42]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 43]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 44]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (113.04ms)
+Completed 200 OK in 200ms (Views: 193.9ms | ActiveRecord: 20.7ms | Allocations: 11843)
+
+
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "csale"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/trails" for ::1 at 2022-08-25 15:43:34 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 38]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 39]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 40]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 41]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 42]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 43]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 44]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (28.52ms)
+Completed 200 OK in 34ms (Views: 23.4ms | ActiveRecord: 10.6ms | Allocations: 8803)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:43:34 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 38]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (7.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 39]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 40]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (6.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 41]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 42]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 43]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (11.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 44]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (63.41ms)
+Completed 200 OK in 74ms (Views: 36.5ms | ActiveRecord: 37.3ms | Allocations: 8801)
+
+
+Started PATCH "/trails/38" for ::1 at 2022-08-25 15:44:01 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>5, "id"=>"38", "trail"=>{"likes"=>5}}
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTrail Update (2.5ms)[0m  [1m[33mUPDATE "trails" SET "updated_at" = $1, "likes" = $2 WHERE "trails"."id" = $3[0m  [["updated_at", "2022-08-25 21:44:01.979875"], ["likes", 5], ["id", 38]]
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+[active_model_serializers]   [1m[36mReview Load (2.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 38]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:23:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (5.44ms)
+Completed 202 Accepted in 27ms (Views: 3.5ms | ActiveRecord: 10.0ms | Allocations: 3391)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:50:17 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 39]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 40]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 41]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 42]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 43]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 44]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 38]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (67.74ms)
+Completed 200 OK in 404ms (Views: 403.6ms | ActiveRecord: 70.7ms | Allocations: 11816)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 15:50:17 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (12.9ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 39]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (4.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 40]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (13.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 41]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 42]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 43]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (8.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 44]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (7.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 38]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (77.63ms)
+Completed 200 OK in 108ms (Views: 49.0ms | ActiveRecord: 57.6ms | Allocations: 8801)
+
+
+  [1m[36mTrail Load (1.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  [1m[36mTrail Load (1.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" ORDER BY "trails"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" ORDER BY "trails"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mTrail Load (0.6ms)[0m  [1m[34mSELECT "trails".* FROM "trails" ORDER BY "trails"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (44.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.0ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (16.0ms)[0m  [1m[35mTRUNCATE TABLE "reviews", "trails", "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (1.2ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Horsetooth Trail"], ["img_url", "https://images.unsplash.com/photo-1658419655425-d359ac8a0bf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 22:15:40.729271"], ["updated_at", "2022-08-25 22:15:40.729271"], ["map", "https://www.larimer.gov/naturalresources/parks/horsetooth-mountain"], ["likes", 4]]
+  [1m[36mTRANSACTION (41.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.9ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Hewlett Gultch"], ["img_url", "https://images.unsplash.com/photo-1590013335840-83bbe7031d4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1941&q=80"], ["city", "Fort Collins"], ["length", 8], ["est_time", 3], ["created_at", "2022-08-25 22:15:40.775962"], ["updated_at", "2022-08-25 22:15:40.775962"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36779"], ["likes", 5]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.5ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Grey Rock"], ["img_url", "https://images.unsplash.com/photo-1619994948937-ef1e758d46ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80"], ["city", "Fort Collins"], ["length", 9], ["est_time", 5], ["created_at", "2022-08-25 22:15:40.785737"], ["updated_at", "2022-08-25 22:15:40.785737"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36777"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.7ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Bear Peak"], ["img_url", "https://images.unsplash.com/photo-1528226922624-a3d2fe277cf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 3], ["est_time", 3], ["created_at", "2022-08-25 22:15:40.791762"], ["updated_at", "2022-08-25 22:15:40.791762"], ["map", "https://bouldercolorado.gov/trail/bear-peak"], ["likes", 11]]
+  [1m[36mTRANSACTION (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (3.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Mesa Trail"], ["img_url", "https://images.unsplash.com/photo-1644983038252-a80b1536bdfb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 2], ["est_time", 3], ["created_at", "2022-08-25 22:15:40.802830"], ["updated_at", "2022-08-25 22:15:40.802830"], ["map", "https://bouldercolorado.gov/trail/mesa"], ["likes", 6]]
+  [1m[36mTRANSACTION (47.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (2.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Resevoir Ridge"], ["img_url", "https://images.unsplash.com/photo-1653250947541-756cf6d786f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 22:15:40.862006"], ["updated_at", "2022-08-25 22:15:40.862006"], ["map", "https://www.fcgov.com/naturalareas/finder/reservoirridge"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "lnoelle"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "csale"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (22.1ms)[0m  [1m[35mTRUNCATE TABLE "reviews", "trails", "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (1.0ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Horsetooth Trail"], ["img_url", "https://images.unsplash.com/photo-1658419655425-d359ac8a0bf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 22:16:16.650087"], ["updated_at", "2022-08-25 22:16:16.650087"], ["map", "https://www.larimer.gov/naturalresources/parks/horsetooth-mountain"], ["likes", 4]]
+  [1m[36mTRANSACTION (41.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Hewlett Gultch"], ["img_url", "https://images.unsplash.com/photo-1590013335840-83bbe7031d4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1941&q=80"], ["city", "Fort Collins"], ["length", 8], ["est_time", 3], ["created_at", "2022-08-25 22:16:16.696856"], ["updated_at", "2022-08-25 22:16:16.696856"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36779"], ["likes", 5]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (2.4ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Grey Rock"], ["img_url", "https://images.unsplash.com/photo-1619994948937-ef1e758d46ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80"], ["city", "Fort Collins"], ["length", 9], ["est_time", 5], ["created_at", "2022-08-25 22:16:16.705739"], ["updated_at", "2022-08-25 22:16:16.705739"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36777"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Bear Peak"], ["img_url", "https://images.unsplash.com/photo-1528226922624-a3d2fe277cf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 3], ["est_time", 3], ["created_at", "2022-08-25 22:16:16.716674"], ["updated_at", "2022-08-25 22:16:16.716674"], ["map", "https://bouldercolorado.gov/trail/bear-peak"], ["likes", 11]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.5ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Mesa Trail"], ["img_url", "https://images.unsplash.com/photo-1644983038252-a80b1536bdfb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 2], ["est_time", 3], ["created_at", "2022-08-25 22:16:16.725403"], ["updated_at", "2022-08-25 22:16:16.725403"], ["map", "https://bouldercolorado.gov/trail/mesa"], ["likes", 6]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Resevoir Ridge"], ["img_url", "https://images.unsplash.com/photo-1653250947541-756cf6d786f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 22:16:16.734238"], ["updated_at", "2022-08-25 22:16:16.734238"], ["map", "https://www.fcgov.com/naturalareas/finder/reservoirridge"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "lnoelle"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "csale"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (48.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (21.4ms)[0m  [1m[35mTRUNCATE TABLE "reviews", "trails", "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (42.9ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Horsetooth Trail"], ["img_url", "https://images.unsplash.com/photo-1658419655425-d359ac8a0bf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 22:19:52.733985"], ["updated_at", "2022-08-25 22:19:52.733985"], ["map", "https://www.larimer.gov/naturalresources/parks/horsetooth-mountain"], ["likes", 4]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Hewlett Gultch"], ["img_url", "https://images.unsplash.com/photo-1590013335840-83bbe7031d4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1941&q=80"], ["city", "Fort Collins"], ["length", 8], ["est_time", 3], ["created_at", "2022-08-25 22:19:52.786625"], ["updated_at", "2022-08-25 22:19:52.786625"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36779"], ["likes", 5]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.7ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Grey Rock"], ["img_url", "https://images.unsplash.com/photo-1619994948937-ef1e758d46ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80"], ["city", "Fort Collins"], ["length", 9], ["est_time", 5], ["created_at", "2022-08-25 22:19:52.795751"], ["updated_at", "2022-08-25 22:19:52.795751"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36777"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Bear Peak"], ["img_url", "https://images.unsplash.com/photo-1528226922624-a3d2fe277cf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 3], ["est_time", 3], ["created_at", "2022-08-25 22:19:52.804886"], ["updated_at", "2022-08-25 22:19:52.804886"], ["map", "https://bouldercolorado.gov/trail/bear-peak"], ["likes", 11]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Mesa Trail"], ["img_url", "https://images.unsplash.com/photo-1644983038252-a80b1536bdfb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 2], ["est_time", 3], ["created_at", "2022-08-25 22:19:52.814248"], ["updated_at", "2022-08-25 22:19:52.814248"], ["map", "https://bouldercolorado.gov/trail/mesa"], ["likes", 6]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.7ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Resevoir Ridge"], ["img_url", "https://images.unsplash.com/photo-1653250947541-756cf6d786f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 22:19:52.823126"], ["updated_at", "2022-08-25 22:19:52.823126"], ["map", "https://www.fcgov.com/naturalareas/finder/reservoirridge"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "lnoelle"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "csale"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (27.8ms)[0m  [1m[35mTRUNCATE TABLE "reviews", "trails", "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (1.1ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Horsetooth Trail"], ["img_url", "https://images.unsplash.com/photo-1658419655425-d359ac8a0bf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 22:23:54.884431"], ["updated_at", "2022-08-25 22:23:54.884431"], ["map", "https://www.larimer.gov/naturalresources/parks/horsetooth-mountain"], ["likes", 4]]
+  [1m[36mTRANSACTION (81.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.4ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Hewlett Gultch"], ["img_url", "https://images.unsplash.com/photo-1590013335840-83bbe7031d4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1941&q=80"], ["city", "Fort Collins"], ["length", 8], ["est_time", 3], ["created_at", "2022-08-25 22:23:54.970916"], ["updated_at", "2022-08-25 22:23:54.970916"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36779"], ["likes", 5]]
+  [1m[36mTRANSACTION (41.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Grey Rock"], ["img_url", "https://images.unsplash.com/photo-1619994948937-ef1e758d46ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80"], ["city", "Fort Collins"], ["length", 9], ["est_time", 5], ["created_at", "2022-08-25 22:23:55.015895"], ["updated_at", "2022-08-25 22:23:55.015895"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36777"], ["likes", 10]]
+  [1m[36mTRANSACTION (82.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Bear Peak"], ["img_url", "https://images.unsplash.com/photo-1528226922624-a3d2fe277cf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 3], ["est_time", 3], ["created_at", "2022-08-25 22:23:55.103262"], ["updated_at", "2022-08-25 22:23:55.103262"], ["map", "https://bouldercolorado.gov/trail/bear-peak"], ["likes", 11]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.4ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Mesa Trail"], ["img_url", "https://images.unsplash.com/photo-1644983038252-a80b1536bdfb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 2], ["est_time", 3], ["created_at", "2022-08-25 22:23:55.111611"], ["updated_at", "2022-08-25 22:23:55.111611"], ["map", "https://bouldercolorado.gov/trail/mesa"], ["likes", 6]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.3ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Resevoir Ridge"], ["img_url", "https://images.unsplash.com/photo-1653250947541-756cf6d786f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 22:23:55.118418"], ["updated_at", "2022-08-25 22:23:55.118418"], ["map", "https://www.fcgov.com/naturalareas/finder/reservoirridge"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "lnoelle"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "csale"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
