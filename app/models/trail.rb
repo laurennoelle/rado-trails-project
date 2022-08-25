@@ -1,6 +1,6 @@
 class Trail < ApplicationRecord
 has_many :reviews 
-# has_many :reviews, through: :users
+has_many :reviews, through: :users
 
 validates :name, presence: true
 validates :img_url, presence: true

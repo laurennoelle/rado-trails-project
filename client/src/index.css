@@ -177,19 +177,23 @@ nav a.active {
   top: 100px;
 }
 
-/* .button {
-  background-color: #45a469;
-  border: #beabd8;
+.button {
+  
+  border: #0d9a3a;
 }
 
 .btn {
   display: inline-block;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1;
   border-radius: .25rem;
   font-size: 1rem;
   box-shadow: 0px 0px 2px 2px rgb(225, 216, 216);
-} */
+}
+
+.btn:hover {
+  color:#0d9a3a
+}
 
 .splash {
   background: url("https://i.imgur.com/Yyi9EgP.jpg") no-repeat fixed;
