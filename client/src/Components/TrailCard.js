@@ -111,7 +111,14 @@ function TrailCard( {trail} ) {
         <h4>{trail.city}, CO</h4>
         <p><em>Length: {trail.length} mi.</em></p>
         <p><em>Estimated Time: {trail.est_time} hrs.</em></p>
-        <button>⭐️</button>
+        <a 
+        className="map-icon"
+        href={trail.map}
+        target="_blank"
+        >
+          <ion-icon name="navigate-circle-outline"></ion-icon>
+        </a>
+        {/* <button>⭐️</button> */}
         {/* <p> Reviews: {trail.reviews}</p> */}
     </li>
   );

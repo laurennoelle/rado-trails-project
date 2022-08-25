@@ -198,3 +198,14 @@ nav a.active {
   width: 101%;
   margin-left: -10px;
 }
+
+.map-icon {
+  color:rgb(7, 13, 7);
+  transition: color 0.2s;
+  margin: 0 10px;
+  font-size: 25px;
+}
+
+.map-icon:hover {
+  color:rgb(61, 188, 52);
+}
