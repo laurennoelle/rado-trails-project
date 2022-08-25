@@ -19,7 +19,7 @@ rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity
 
     def update 
         trail = Trail.find(params[:id])
-        trail.update(trail_params)
+        trail.update(likes: params[:likes])
         render json: trail, status: :accepted
     end 
 
@@ -33,7 +33,7 @@ rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity
 private
 
     def trail_params
-        params.permit(:name, :img_url, :city, :length, :est_time)
+        params.permit(:name, :img_url, :city, :length, :est_time, :map, :likes)
     end
 
     def record_not_found

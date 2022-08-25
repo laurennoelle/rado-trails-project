@@ -1,6 +1,6 @@
 class Review < ApplicationRecord
-    # belongs_to :user 
-    # belongs_to :trail
+    belongs_to :user 
+    belongs_to :trail
 
     validates :username, presence: true
     validates :comment, inclusion: {in: 0..200}

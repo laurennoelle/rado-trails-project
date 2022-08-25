@@ -203,9 +203,13 @@ nav a.active {
   color:rgb(7, 13, 7);
   transition: color 0.2s;
   margin: 0 10px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .map-icon:hover {
   color:rgb(61, 188, 52);
+}
+
+.add-review-button {
+  font-size: small;
 }

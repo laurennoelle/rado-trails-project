@@ -18,7 +18,7 @@ function Trails() {
         .then(setTrails)
     }, [])
 
-    const searchedTrails = trails.filter((t) => t.name.toLowerCase().includes(search.toLowerCase()))
+    const searchedTrails = trails.filter((t) => t.name.toLowerCase().includes(search.toLowerCase()) || t.city.toLowerCase().includes(search.toLowerCase()))
 
   return (
     <main>

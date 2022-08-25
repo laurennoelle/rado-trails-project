@@ -1,46 +1,46 @@
 class ReviewsController < ApplicationController
-    # rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
-    # rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity
+    rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
+    rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity
         def index
             reviews = Review.all 
             render json: reviews, except: [:created_at, :updated_at], status: :ok
         end
     
-    #     def show
-    #         trail = Trail.find(params[:id])
-    #         render json: trail, except: [:created_at, :updated_at], status: :ok 
-    #     end
+        def show
+            review = Review.find(params[:id])
+            render json: review, except: [:created_at, :updated_at], status: :ok 
+        end
     
-    #     def create
-    #         trail = Trail.create!(trail_params)
-    #         render json: trail, status: :created
+        def create
+            review = Review.create!(review_params)
+            render json: review, status: :created
     
-    #     end
+        end
     
-    #     def update 
-    #         trail = Trail.find(params[:id])
-    #         trail.update(trail_params)
-    #         render json: trail, status: :accepted
-    #     end 
+        def update 
+            review = Review.find(params[:id])
+            review.update(review_params)
+            render json: review, status: :accepted
+        end 
     
-    #     def destroy
-    #         trail = Trail.find(params[:id])
-    #         trail.destroy
-    #         head :no_content
+        def destroy
+            review = Review.find(params[:id])
+            review.destroy
+            head :no_content
     
-    #     end
+        end
     
-    # private
+    private
     
-    #     def trail_params
-    #         params.permit(:name, :img_url, :city, :length, :est_time)
-    #     end
+        def review_params
+            params.permit(:username, :comment, :rating)
+        end
     
-    #     def record_not_found
-    #         render json: { error: "Trail not found" }, status: :not_found
-    #     end
+        def record_not_found
+            render json: { error: "review not found" }, status: :not_found
+        end
     
-    #     def unprocessable_entity(exception)
-    #         render json: { errors: exception.record.errors.full_messages}, status: :unprocessable_entity
-    #     end
+        def unprocessable_entity(exception)
+            render json: { errors: exception.record.errors.full_messages}, status: :unprocessable_entity
+        end
     end

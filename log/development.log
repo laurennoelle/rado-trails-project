@@ -3872,3 +3872,1111 @@ Processing by TrailsController#index as */*
 Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 1.6ms | Allocations: 1735)
 
 
+Started GET "/trails" for ::1 at 2022-08-25 10:14:10 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.0ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.55ms)
+Completed 200 OK in 101ms (Views: 94.3ms | ActiveRecord: 14.5ms | Allocations: 4726)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:14:13 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.0ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.27ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 1.0ms | Allocations: 1754)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:14:13 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.6ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.05ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.6ms | Allocations: 1735)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:21:59 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.8ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.81ms)
+Completed 200 OK in 105ms (Views: 101.0ms | ActiveRecord: 14.8ms | Allocations: 4689)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:22:00 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.46ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.4ms | Allocations: 1735)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:28:18 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.9ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.9ms)
+Completed 200 OK in 97ms (Views: 96.3ms | ActiveRecord: 12.0ms | Allocations: 4671)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:28:18 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.6ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.47ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.6ms | Allocations: 1735)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:33:16 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.7ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.52ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.7ms | Allocations: 1735)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:33:16 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.73ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.3ms | Allocations: 1735)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:35:58 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.35ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.3ms | Allocations: 1735)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:35:58 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (2.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.67ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 2.2ms | Allocations: 1735)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:37:42 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.65ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 1735)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 10:37:42 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.46ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 1.5ms | Allocations: 1735)
+
+
+Started PATCH "/trails/20" for ::1 at 2022-08-25 10:55:24 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>1, "id"=>"20", "trail"=>{}}
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[31mUnpermitted parameters: :rating, :id, :trail. Context: { controller: TrailsController, action: update, request: #<ActionDispatch::Request:0x00007fc3f06032c0>, params: {"rating"=>1, "controller"=>"trails", "action"=>"update", "id"=>"20", "trail"=>{}} }[0m
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (7.32ms)
+Completed 202 Accepted in 165ms (Views: 8.6ms | ActiveRecord: 19.8ms | Allocations: 6284)
+
+
+Started PATCH "/trails/20" for ::1 at 2022-08-25 10:55:26 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"20", "trail"=>{}}
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[31mUnpermitted parameters: :rating, :id, :trail. Context: { controller: TrailsController, action: update, request: #<ActionDispatch::Request:0x00007fc3f73439e8>, params: {"rating"=>nil, "controller"=>"trails", "action"=>"update", "id"=>"20", "trail"=>{}} }[0m
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.41ms)
+Completed 202 Accepted in 6ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1028)
+
+
+Started PATCH "/trails/20" for ::1 at 2022-08-25 10:55:27 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"20", "trail"=>{}}
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[31mUnpermitted parameters: :rating, :id, :trail. Context: { controller: TrailsController, action: update, request: #<ActionDispatch::Request:0x00007fc3f7991c00>, params: {"rating"=>nil, "controller"=>"trails", "action"=>"update", "id"=>"20", "trail"=>{}} }[0m
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.28ms)
+Completed 202 Accepted in 6ms (Views: 0.7ms | ActiveRecord: 0.5ms | Allocations: 1029)
+
+
+Started PATCH "/trails/20" for ::1 at 2022-08-25 10:55:28 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"20", "trail"=>{}}
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[31mUnpermitted parameters: :rating, :id, :trail. Context: { controller: TrailsController, action: update, request: #<ActionDispatch::Request:0x00007fc3f795be98>, params: {"rating"=>nil, "controller"=>"trails", "action"=>"update", "id"=>"20", "trail"=>{}} }[0m
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.42ms)
+Completed 202 Accepted in 7ms (Views: 0.9ms | ActiveRecord: 0.5ms | Allocations: 1029)
+
+
+Started PATCH "/trails/20" for ::1 at 2022-08-25 11:03:43 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"20", "trail"=>{}}
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 12.1ms | Allocations: 2276)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'rating' for Trail.):
+  
+app/controllers/trails_controller.rb:22:in `update'
+Started PATCH "/trails/20" for ::1 at 2022-08-25 11:03:43 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"20", "trail"=>{}}
+  [1m[36mTrail Load (1.1ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.1ms | Allocations: 641)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'rating' for Trail.):
+  
+app/controllers/trails_controller.rb:22:in `update'
+Started PATCH "/trails/21" for ::1 at 2022-08-25 11:03:44 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>1, "id"=>"21", "trail"=>{}}
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms | Allocations: 641)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'rating' for Trail.):
+  
+app/controllers/trails_controller.rb:22:in `update'
+Started PATCH "/trails/21" for ::1 at 2022-08-25 11:03:45 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"21", "trail"=>{}}
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms | Allocations: 641)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'rating' for Trail.):
+  
+app/controllers/trails_controller.rb:22:in `update'
+Started PATCH "/trails/22" for ::1 at 2022-08-25 11:03:46 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>1, "id"=>"22", "trail"=>{}}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.3ms | Allocations: 641)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'rating' for Trail.):
+  
+app/controllers/trails_controller.rb:22:in `update'
+Started PATCH "/trails/22" for ::1 at 2022-08-25 11:03:46 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"22", "trail"=>{}}
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.4ms | Allocations: 641)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'rating' for Trail.):
+  
+app/controllers/trails_controller.rb:22:in `update'
+Started PATCH "/trails/22" for ::1 at 2022-08-25 11:04:44 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"22", "trail"=>{}}
+  [1m[36mTrail Load (1.8ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.8ms | Allocations: 640)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'rating' for Trail.):
+  
+app/controllers/trails_controller.rb:22:in `update'
+Started PATCH "/trails/22" for ::1 at 2022-08-25 11:05:09 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"22", "trail"=>{}}
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 105.4ms | Allocations: 2201)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'rating' for Trail.):
+  
+app/controllers/trails_controller.rb:22:in `update'
+Started PATCH "/trails/22" for ::1 at 2022-08-25 11:07:07 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"22", "trail"=>{}}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 4.5ms | Allocations: 2183)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'rating' for Trail.):
+  
+app/controllers/trails_controller.rb:22:in `update'
+Started GET "/trails" for ::1 at 2022-08-25 11:07:41 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (42.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.8ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.02ms)
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 7.8ms | Allocations: 25997)
+
+
+  
+NoMethodError (undefined method `rating' for #<Trail:0x00007f77bc73da58>
+Did you mean?  Rational):
+  
+app/controllers/trails_controller.rb:6:in `index'
+Started GET "/trails" for ::1 at 2022-08-25 11:07:41 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (2.9ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (16.28ms)
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 2.9ms | Allocations: 4449)
+
+
+  
+NoMethodError (undefined method `rating' for #<Trail:0x00007f77bbd114f8>
+Did you mean?  Rational):
+  
+app/controllers/trails_controller.rb:6:in `index'
+Started GET "/trails" for ::1 at 2022-08-25 11:08:44 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.7ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.1ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 1.7ms | Allocations: 4454)
+
+
+  
+NoMethodError (undefined method `rating' for #<Trail:0x00007f77bdb239a0>
+Did you mean?  Rational):
+  
+app/controllers/trails_controller.rb:6:in `index'
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddLikesToTrails (20220825171944)
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (42.9ms)[0m  [1m[35mALTER TABLE "trails" ADD "likes" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (23.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220825171944"]]
+  [1m[36mTRANSACTION (4.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (26.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (43.8ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (43.3ms)[0m  [1m[35mTRUNCATE TABLE "reviews", "trails", "users"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.1ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (29.7ms)[0m  [1m[35mTRUNCATE TABLE "reviews", "trails", "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (21.4ms)[0m  [1m[35mTRUNCATE TABLE "reviews", "trails", "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (22.5ms)[0m  [1m[35mTRUNCATE TABLE "trails", "reviews", "users"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (34.4ms)[0m  [1m[35mTRUNCATE TABLE "trails", "reviews", "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddLikesToTrails (20220825171944)
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (63.4ms)[0m  [1m[35mALTER TABLE "trails" DROP COLUMN "likes"[0m
+  [1m[36mActiveRecord::SchemaMigration Delete All (18.7ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20220825171944"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddLikesToTrails (20220825171944)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (44.1ms)[0m  [1m[35mALTER TABLE "trails" ADD "likes" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (43.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220825171944"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445635339795580760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (24.7ms)[0m  [1m[35mTRUNCATE TABLE "reviews", "trails", "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "reviews" DISABLE TRIGGER ALL;ALTER TABLE "trails" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (18.4ms)[0m  [1m[35mTRUNCATE TABLE "reviews", "trails", "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "reviews" ENABLE TRIGGER ALL;ALTER TABLE "trails" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (2.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "lnoelle"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (40.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "csale"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (175.2ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Horsetooth Trail"], ["img_url", "https://images.unsplash.com/photo-1658419655425-d359ac8a0bf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 17:42:42.349286"], ["updated_at", "2022-08-25 17:42:42.349286"], ["map", "https://www.larimer.gov/naturalresources/parks/horsetooth-mountain"], ["likes", 4]]
+  [1m[36mTRANSACTION (38.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Hewlett Gultch"], ["img_url", "https://images.unsplash.com/photo-1590013335840-83bbe7031d4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1941&q=80"], ["city", "Fort Collins"], ["length", 8], ["est_time", 3], ["created_at", "2022-08-25 17:42:42.567823"], ["updated_at", "2022-08-25 17:42:42.567823"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36779"], ["likes", 5]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Grey Rock"], ["img_url", "https://images.unsplash.com/photo-1619994948937-ef1e758d46ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80"], ["city", "Fort Collins"], ["length", 9], ["est_time", 5], ["created_at", "2022-08-25 17:42:42.577127"], ["updated_at", "2022-08-25 17:42:42.577127"], ["map", "https://www.fs.usda.gov/recarea/arp/recarea/?recid=36777"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.7ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Bear Peak"], ["img_url", "https://images.unsplash.com/photo-1528226922624-a3d2fe277cf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 3], ["est_time", 3], ["created_at", "2022-08-25 17:42:42.586038"], ["updated_at", "2022-08-25 17:42:42.586038"], ["map", "https://bouldercolorado.gov/trail/bear-peak"], ["likes", 11]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.6ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Mesa Trail"], ["img_url", "https://images.unsplash.com/photo-1644983038252-a80b1536bdfb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"], ["city", "Boulder"], ["length", 2], ["est_time", 3], ["created_at", "2022-08-25 17:42:42.594987"], ["updated_at", "2022-08-25 17:42:42.594987"], ["map", "https://bouldercolorado.gov/trail/mesa"], ["likes", 6]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrail Create (0.4ms)[0m  [1m[32mINSERT INTO "trails" ("name", "img_url", "city", "length", "est_time", "created_at", "updated_at", "map", "likes") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Resevoir Ridge"], ["img_url", "https://images.unsplash.com/photo-1653250947541-756cf6d786f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"], ["city", "Fort Collins"], ["length", 4], ["est_time", 2], ["created_at", "2022-08-25 17:42:42.602666"], ["updated_at", "2022-08-25 17:42:42.602666"], ["map", "https://www.fcgov.com/naturalareas/finder/reservoirridge"], ["likes", 10]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/trails" for ::1 at 2022-08-25 11:43:19 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.9ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.19ms)
+Completed 200 OK in 90ms (Views: 34.2ms | ActiveRecord: 10.5ms | Allocations: 23716)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:43:32 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.09ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.3ms | Allocations: 1792)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:43:32 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.1ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 1792)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:44:04 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.12ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.3ms | Allocations: 1773)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:44:04 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.26ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.4ms | Allocations: 1773)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:44:29 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>1, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.32ms)
+Completed 202 Accepted in 21ms (Views: 0.9ms | ActiveRecord: 0.6ms | Allocations: 3268)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:44:29 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.28ms)
+Completed 202 Accepted in 6ms (Views: 0.7ms | ActiveRecord: 0.4ms | Allocations: 980)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:44:30 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (8.7ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.29ms)
+Completed 202 Accepted in 15ms (Views: 0.7ms | ActiveRecord: 8.7ms | Allocations: 962)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:44:30 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.29ms)
+Completed 202 Accepted in 16ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 962)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:44:31 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.3ms)
+Completed 202 Accepted in 6ms (Views: 0.7ms | ActiveRecord: 0.5ms | Allocations: 961)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:44:31 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>nil, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.31ms)
+Completed 202 Accepted in 7ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 959)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:44:33 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.26ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.3ms | Allocations: 1777)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:44:33 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.26ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.3ms | Allocations: 1773)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:45:12 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.45ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.3ms | Allocations: 1773)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:45:13 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.66ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.3ms | Allocations: 1773)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:45:35 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>5, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.29ms)
+Completed 202 Accepted in 5ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 957)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:45:37 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>1, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.28ms)
+Completed 202 Accepted in 8ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 959)
+
+
+Started PATCH "/trails/27" for ::1 at 2022-08-25 11:45:39 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>6, "id"=>"27", "trail"=>{}}
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.27ms)
+Completed 202 Accepted in 11ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 959)
+
+
+Started PATCH "/trails/27" for ::1 at 2022-08-25 11:45:39 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>1, "id"=>"27", "trail"=>{}}
+  [1m[36mTrail Load (1.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.29ms)
+Completed 202 Accepted in 5ms (Views: 1.1ms | ActiveRecord: 1.2ms | Allocations: 960)
+
+
+Started PATCH "/trails/28" for ::1 at 2022-08-25 11:45:41 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>11, "id"=>"28", "trail"=>{}}
+  [1m[36mTrail Load (2.8ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.31ms)
+Completed 202 Accepted in 9ms (Views: 0.7ms | ActiveRecord: 2.8ms | Allocations: 959)
+
+
+Started PATCH "/trails/28" for ::1 at 2022-08-25 11:45:41 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>1, "id"=>"28", "trail"=>{}}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.56ms)
+Completed 202 Accepted in 14ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 959)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:45:52 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (7.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.09ms)
+Completed 200 OK in 28ms (Views: 20.7ms | ActiveRecord: 7.3ms | Allocations: 1775)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:45:52 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (7.7ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.13ms)
+Completed 200 OK in 26ms (Views: 17.9ms | ActiveRecord: 7.7ms | Allocations: 1773)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:46:26 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (2.8ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.06ms)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 2.8ms | Allocations: 1773)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:46:26 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.26ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.4ms | Allocations: 1773)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:50:40 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.1ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.38ms)
+Completed 200 OK in 83ms (Views: 43.5ms | ActiveRecord: 16.5ms | Allocations: 4929)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:50:40 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.9ms)
+Completed 200 OK in 34ms (Views: 25.8ms | ActiveRecord: 1.5ms | Allocations: 1773)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:50:42 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>5, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 9ms (ActiveRecord: 0.5ms | Allocations: 1012)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:50:43 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>5, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 6ms (ActiveRecord: 0.2ms | Allocations: 794)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:50:44 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>5, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 4ms (ActiveRecord: 0.2ms | Allocations: 794)
+
+
+Started PATCH "/trails/27" for ::1 at 2022-08-25 11:50:46 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>6, "id"=>"27", "trail"=>{}}
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 4ms (ActiveRecord: 0.2ms | Allocations: 794)
+
+
+Started PATCH "/trails/27" for ::1 at 2022-08-25 11:50:46 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>6, "id"=>"27", "trail"=>{}}
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 9ms (ActiveRecord: 0.4ms | Allocations: 794)
+
+
+Started PATCH "/trails/28" for ::1 at 2022-08-25 11:50:47 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>11, "id"=>"28", "trail"=>{}}
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 5ms (ActiveRecord: 0.2ms | Allocations: 794)
+
+
+Started PATCH "/trails/28" for ::1 at 2022-08-25 11:50:48 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>11, "id"=>"28", "trail"=>{}}
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 7ms (ActiveRecord: 0.2ms | Allocations: 794)
+
+
+Started PATCH "/trails/28" for ::1 at 2022-08-25 11:50:49 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>11, "id"=>"28", "trail"=>{}}
+  [1m[36mTrail Load (0.6ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 17ms (ActiveRecord: 0.6ms | Allocations: 794)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:53:51 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"rating"=>5, "id"=>"26", "trail"=>{}}
+  [1m[36mTrail Load (1.6ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 4ms (ActiveRecord: 1.6ms | Allocations: 794)
+
+
+Started GET "/trails/22" for ::1 at 2022-08-25 11:54:32 -0600
+Processing by TrailsController#show as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:10:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 404 Not Found in 157ms (Views: 20.8ms | ActiveRecord: 0.5ms | Allocations: 2423)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:54:37 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.55ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.3ms | Allocations: 1773)
+
+
+Started GET "/trails/26" for ::1 at 2022-08-25 11:54:41 -0600
+Processing by TrailsController#show as */*
+  Parameters: {"id"=>"26"}
+  [1m[36mTrail Load (2.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:10:in `show'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (0.34ms)
+Completed 200 OK in 8ms (Views: 1.1ms | ActiveRecord: 2.2ms | Allocations: 771)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:55:56 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.27ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.4ms | Allocations: 1773)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:55:56 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.8ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.53ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.8ms | Allocations: 1773)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:56:00 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>5, "id"=>"26", "trail"=>{"likes"=>5}}
+  [1m[36mTrail Load (0.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+  [1m[36mTRANSACTION (4.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTrail Update (47.6ms)[0m  [1m[33mUPDATE "trails" SET "updated_at" = $1, "likes" = $2 WHERE "trails"."id" = $3[0m  [["updated_at", "2022-08-25 17:56:00.347363"], ["likes", 5], ["id", 26]]
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTRANSACTION (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+Completed 204 No Content in 70ms (ActiveRecord: 58.1ms | Allocations: 2321)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:56:01 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>5, "id"=>"26", "trail"=>{"likes"=>5}}
+  [1m[36mTrail Load (1.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 6ms (ActiveRecord: 1.4ms | Allocations: 754)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:56:03 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>5, "id"=>"26", "trail"=>{"likes"=>5}}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 6ms (ActiveRecord: 0.3ms | Allocations: 755)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:56:05 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>5, "id"=>"26", "trail"=>{"likes"=>5}}
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 7ms (ActiveRecord: 0.5ms | Allocations: 755)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:56:10 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>5, "id"=>"26", "trail"=>{"likes"=>5}}
+  [1m[36mTrail Load (1.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 4ms (ActiveRecord: 1.2ms | Allocations: 755)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:56:13 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>5, "id"=>"26", "trail"=>{"likes"=>5}}
+  [1m[36mTrail Load (1.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 8ms (ActiveRecord: 1.4ms | Allocations: 754)
+
+
+Started PATCH "/trails/26" for ::1 at 2022-08-25 11:56:14 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>5, "id"=>"26", "trail"=>{"likes"=>5}}
+  [1m[36mTrail Load (1.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+Completed 204 No Content in 4ms (ActiveRecord: 1.5ms | Allocations: 754)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:56:23 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.96ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.4ms | Allocations: 1775)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 11:56:23 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.7ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.38ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.7ms | Allocations: 1773)
+
+
+Started GET "/reviews" for ::1 at 2022-08-25 12:01:43 -0600
+Processing by ReviewsController#index as */*
+  [1m[36mReview Load (6.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  ↳ app/controllers/reviews_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.49ms)
+Completed 200 OK in 34ms (Views: 13.8ms | ActiveRecord: 6.5ms | Allocations: 1205)
+
+
+Started PATCH "/trails/31" for ::1 at 2022-08-25 12:10:54 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>11, "id"=>"31", "trail"=>{"likes"=>11}}
+  [1m[36mTrail Load (0.8ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTrail Update (2.6ms)[0m  [1m[33mUPDATE "trails" SET "updated_at" = $1, "likes" = $2 WHERE "trails"."id" = $3[0m  [["updated_at", "2022-08-25 18:10:55.276347"], ["likes", 11], ["id", 31]]
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTRANSACTION (4.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (26.0ms)
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 80.3ms | Allocations: 10139)
+
+
+  
+ActiveRecord::HasManyThroughAssociationNotFoundError (Could not find the association :users in model Trail):
+  
+app/controllers/trails_controller.rb:23:in `update'
+Started PATCH "/trails/31" for ::1 at 2022-08-25 12:11:06 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>nil, "id"=>"31", "trail"=>{"likes"=>nil}}
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (1.11ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms | Allocations: 1036)
+
+
+  
+ActiveRecord::HasManyThroughAssociationNotFoundError (Could not find the association :users in model Trail):
+  
+app/controllers/trails_controller.rb:23:in `update'
+Started GET "/trails" for ::1 at 2022-08-25 12:12:55 -0600
+  
+NoMethodError (undefined method `patch' for TrailsController:Class
+Did you mean?  catch):
+  
+app/controllers/trails_controller.rb:20:in `<class:TrailsController>'
+app/controllers/trails_controller.rb:1:in `<main>'
+Started GET "/trails" for ::1 at 2022-08-25 12:12:55 -0600
+  
+NoMethodError (undefined method `patch' for TrailsController:Class
+Did you mean?  catch):
+  
+app/controllers/trails_controller.rb:20:in `<class:TrailsController>'
+app/controllers/trails_controller.rb:1:in `<main>'
+Started GET "/trails" for ::1 at 2022-08-25 12:13:19 -0600
+  
+NoMethodError (undefined method `update' for TrailsController:Class):
+  
+app/controllers/trails_controller.rb:20:in `<class:TrailsController>'
+app/controllers/trails_controller.rb:1:in `<main>'
+Started GET "/trails" for ::1 at 2022-08-25 12:13:19 -0600
+  
+NoMethodError (undefined method `update' for TrailsController:Class):
+  
+app/controllers/trails_controller.rb:20:in `<class:TrailsController>'
+app/controllers/trails_controller.rb:1:in `<main>'
+Started GET "/trails" for ::1 at 2022-08-25 12:14:02 -0600
+  
+SyntaxError (/Users/laurennoelle/Development/code/phase-4/phase-4-project-rado-trails/app/controllers/trails_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+        trail.to_json, status: :accepted
+                       ^~~~~~~
+):
+  
+app/controllers/trails_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+app/controllers/trails_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+Started GET "/trails" for ::1 at 2022-08-25 12:14:02 -0600
+  
+SyntaxError (/Users/laurennoelle/Development/code/phase-4/phase-4-project-rado-trails/app/controllers/trails_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+        trail.to_json, status: :accepted
+                       ^~~~~~~
+):
+  
+app/controllers/trails_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+app/controllers/trails_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+Started GET "/trails" for ::1 at 2022-08-25 12:14:17 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.6ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.73ms)
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 21.8ms | Allocations: 6120)
+
+
+  
+ActiveRecord::HasManyThroughAssociationNotFoundError (Could not find the association :users in model Trail):
+  
+app/controllers/trails_controller.rb:6:in `index'
+Started GET "/trails" for ::1 at 2022-08-25 12:14:18 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.2ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.37ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 1.2ms | Allocations: 1166)
+
+
+  
+ActiveRecord::HasManyThroughAssociationNotFoundError (Could not find the association :users in model Trail):
+  
+app/controllers/trails_controller.rb:6:in `index'
+Started GET "/trails" for ::1 at 2022-08-25 12:14:50 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.5ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (96.68ms)
+Completed 200 OK in 153ms (Views: 132.7ms | ActiveRecord: 7.2ms | Allocations: 16436)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 12:14:50 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (1.6ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (1.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (3.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (28.6ms)
+Completed 200 OK in 33ms (Views: 16.5ms | ActiveRecord: 16.3ms | Allocations: 7659)
+
+
+Started PATCH "/trails/29" for ::1 at 2022-08-25 12:14:57 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>12, "id"=>"29", "trail"=>{"likes"=>12}}
+  [1m[36mTrail Load (3.9ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTrail Update (17.7ms)[0m  [1m[33mUPDATE "trails" SET "updated_at" = $1, "likes" = $2 WHERE "trails"."id" = $3[0m  [["updated_at", "2022-08-25 18:14:57.833177"], ["likes", 12], ["id", 29]]
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTRANSACTION (11.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+[active_model_serializers]   [1m[36mReview Load (3.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:23:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (5.63ms)
+Completed 202 Accepted in 55ms (Views: 2.8ms | ActiveRecord: 42.1ms | Allocations: 3645)
+
+
+Started PATCH "/trails/30" for ::1 at 2022-08-25 12:15:04 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>7, "id"=>"30", "trail"=>{"likes"=>7}}
+  [1m[36mTrail Load (0.9ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTrail Update (2.8ms)[0m  [1m[33mUPDATE "trails" SET "updated_at" = $1, "likes" = $2 WHERE "trails"."id" = $3[0m  [["updated_at", "2022-08-25 18:15:04.736440"], ["likes", 7], ["id", 30]]
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTRANSACTION (49.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+[active_model_serializers]   [1m[36mReview Load (4.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:23:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (6.81ms)
+Completed 202 Accepted in 91ms (Views: 3.0ms | ActiveRecord: 59.2ms | Allocations: 3389)
+
+
+Started PATCH "/trails/28" for ::1 at 2022-08-25 12:15:09 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>11, "id"=>"28", "trail"=>{"likes"=>11}}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTrail Update (2.6ms)[0m  [1m[33mUPDATE "trails" SET "updated_at" = $1, "likes" = $2 WHERE "trails"."id" = $3[0m  [["updated_at", "2022-08-25 18:15:09.576014"], ["likes", 11], ["id", 28]]
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTRANSACTION (7.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+[active_model_serializers]   [1m[36mReview Load (2.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:23:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (5.08ms)
+Completed 202 Accepted in 33ms (Views: 2.7ms | ActiveRecord: 21.7ms | Allocations: 3390)
+
+
+Started PATCH "/trails/27" for ::1 at 2022-08-25 12:15:14 -0600
+Processing by TrailsController#update as */*
+  Parameters: {"likes"=>6, "id"=>"27", "trail"=>{"likes"=>6}}
+  [1m[36mTrail Load (0.3ms)[0m  [1m[34mSELECT "trails".* FROM "trails" WHERE "trails"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/trails_controller.rb:21:in `update'
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTrail Update (5.0ms)[0m  [1m[33mUPDATE "trails" SET "updated_at" = $1, "likes" = $2 WHERE "trails"."id" = $3[0m  [["updated_at", "2022-08-25 18:15:14.538664"], ["likes", 6], ["id", 27]]
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+  [1m[36mTRANSACTION (13.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/trails_controller.rb:22:in `update'
+[active_model_serializers]   [1m[36mReview Load (3.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:23:in `update'
+[active_model_serializers] Rendered TrailSerializer with ActiveModelSerializers::Adapter::Attributes (6.05ms)
+Completed 202 Accepted in 44ms (Views: 3.0ms | ActiveRecord: 26.2ms | Allocations: 3389)
+
+
+Started GET "/trails" for ::1 at 2022-08-25 12:15:24 -0600
+Processing by TrailsController#index as */*
+  [1m[36mTrail Load (0.4ms)[0m  [1m[34mSELECT "trails".* FROM "trails"[0m
+  ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (4.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 26]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (22.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 31]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 29]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (12.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 30]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (6.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 28]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers]   [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."trail_id" = $1[0m  [["trail_id", 27]]
+[active_model_serializers]   ↳ app/controllers/trails_controller.rb:6:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (90.35ms)
+Completed 200 OK in 276ms (Views: 224.6ms | ActiveRecord: 51.3ms | Allocations: 7658)
+
+
