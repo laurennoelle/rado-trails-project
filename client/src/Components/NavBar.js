@@ -1,11 +1,12 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Typography, Button } from '@mui/material';
-import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
-import {Box} from "@mui/system"
-// import {link} from 'react-router-dom'
+import { AppBar, Toolbar, Button } from '@mui/material';
+// import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+import { Box } from "@mui/system"
+import { NavLink } from 'react-router-dom'
 function NavBar() {
+
   return (
-    <AppBar sx={{ backgroundColor: "white"}}>
+    <AppBar position="sticky" sx={{ backgroundColor: "white"}}>
         <Toolbar>
             <Box sx={{
                 display: "flex", 
@@ -26,12 +27,12 @@ function NavBar() {
                 </Box>
                 {/* links */}
                 <Box sx={{ display: "flex" }}>
-                     <Typography 
-                     sx={{ marginRight: "20px", cursor: "pointer", color:"black"}}>Home</Typography>
-                     <Typography
-                     sx={{ marginRight: "20px", cursor: "pointer", color:"black"}}>Trails</Typography>
-                     <Typography
-                     sx={{ marginRight: "20px", cursor: "pointer", color:"black"}}>Reviews</Typography>
+                     <NavLink activeClassName='is-active' exact to="/home" style={{ textDecoration: "none", justifyContent: "space-between"}}
+                     sx={{ marginRight: "20px", cursor: "pointer", color:"black" }}>Home</NavLink> 
+                     <NavLink to="/trails" style={{ textDecoration: "none"}}
+                     sx={{ marginRight: "20px", cursor: "pointer", color:"black"}}>Trails</NavLink>
+                     <NavLink to="/reviews" style={{ textDecoration: "none"}}
+                     sx={{ marginRight: "20px", cursor: "pointer", color:"black"}}>Reviews</NavLink>
                 </Box>
                 {/* button links */}
                 <Box>
