@@ -19,10 +19,10 @@ User.create(username: "lnoelle", password: "12345678")
 User.create(username: "csale", password: "87654321")
 
 Review.create(username: "lnoelle", comment: "This trial had great spring flowers and is dog friendly!", rating: 3)
-Review.create(username: "lnoelle" ,comment: "Challenging and muddy!", rating: 1, trail_id: t4.id, user_id: u1.id )
-Review.create(username: "lnoelle" ,comment: "Gorgeous trail with goats!", rating: 3, trail_id: t2.id, user_id: u1.id )
-Review.create(username: "csale" ,comment: "Loved the views at the top!", rating: 4, trail_id: t3.id, user_id: u2.id )
-Review.create(username: "csale" ,comment: "Would reccomend eveytime, the best I've been on this year!", rating: 5, trail_id: t5.id, user_id: u2.id )
+Review.create(username: "lnoelle" ,comment: "Challenging and muddy!", rating: 1)
+Review.create(username: "lnoelle" ,comment: "Gorgeous trail with goats!", rating: 3)
+Review.create(username: "csale" ,comment: "Loved the views at the top!", rating: 4)
+Review.create(username: "csale" ,comment: "Would reccomend eveytime, the best I've been on this year!", rating: 5)
 
 
 puts "✅ Done seeding!"
